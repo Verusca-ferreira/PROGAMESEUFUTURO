@@ -1,0 +1,77 @@
+
+        body {
+            font-family: 'Consolas', 'Courier New', monospace; /* Fonte com estilo de programação */
+            margin: 0;
+            background-color: #281A38; /* Roxo escuro para o fundo */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            box-sizing: border-box;
+            padding-top: 50px;
+        }
+
+        .main-container {
+            width: 80%;
+            max-width: 600px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1 {
+            color: #C77FE9; /* Roxo vibrante para o título */
+            text-align: left;
+            margin: 0 0 80px 0;
+            width: 100%;
+            box-sizing: border-box;
+            text-shadow: 0 0 5px #C77FE9; /* Efeito de brilho sutil */
+        }
+        
+        .placeholder {
+            background-color: #4A356A; /* Tom de roxo mais escuro para as linhas */
+            height: 20px;
+            margin-bottom: 40px;
+            border-radius: 5px;
+            width: 100%;
+        }
+
+        .module-button {
+            background-color: #4A356A; /* Tom de roxo mais escuro para os botões */
+            color: #E0E0E0; /* Cinza claro para o texto */
+            padding: 25px;
+            margin-bottom: 50px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            width: 100%;
+            box-sizing: border-box;
+            justify-content: center;
+            text-align: center;
+            flex-direction: column;
+            border: 2px solid #5F4585; /* Borda sutil */
+            transition: background-color 0.3s ease;
+        }
+
+        .module-button:hover {
+            background-color: #5F4585; /* Roxo ligeiramente mais claro ao passar o mouse */
+        }
+
+        .envelope-icon {
+            font-size: 30px;
+            margin-bottom: 10px;
+            color: #C77FE9; /* Roxo vibrante para o ícone */
+        }
+
+        .module-text {
+            display: block;
+            font-size: 1.2em;
+        }
+
+        .module-subtext {
+            font-size: 0.9em;
+            display: block;
+            margin-top: 5px;
+        }
+    
