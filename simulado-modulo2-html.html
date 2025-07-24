@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de HTML</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body class="quiz">
+    <div class="breadcrumb-container">
+        <div class="container">
+            <a href="modulos-html.html" class="breadcrumb-link">‹ Voltar para o Curso HTML</a>
+        </div>
+    </div>
+    <div class="page-content-wrapper">
+        <div class="container">
+            <div class="content-card">
+
+                <div id="quiz-question-1" class="quiz-question-block">
+                    <h1 class="question-title">1. Qual tag HTML é usada para criar um parágrafo de texto simples?</h1>
+                    <div class="options">
+                        <label class="option-label">
+                            <input type="radio" name="2_q1_options" value="A"> 
+                            A) &lt;h1&gt;
+                        </label>
+                        <label class="option-label">
+                            <input type="radio" name="2_q1_options" value="B">
+                            B) &lt;li&gt;
+                        </label>
+                        <label class="option-label">
+                            <input type="radio" name="2_q1_options" value="C">
+                            C) &lt;p&gt;
+                        </label>
+                        <label class="option-label">
+                            <input type="radio" name="2_q1_options" value="D">
+                            D) &lt;a&gt;
+                        </label>
+                    </div>
+                </div>
+
+                <div id="quiz-question-2" class="quiz-question-block">
+                    <h1 class="question-title">2. Para criar o título mais importante de uma página web, qual tag de título você deve usar?</h1>
+                    <div class="options">
+                        <label class="option-label">
+                            <input type="radio" name="2_q2_options" value="A"> 
+                            A) &lt;h6&gt;
+                        </label>
+                        <label class="option-label">
+                            <input type="radio" name="2_q2_options" value="B">
+                            B) &lt;h2&gt;
+                        </label>
+                        <label class="option-label">
+                            <input type="radio" name="2_q2_options" value="C">
+                            C) &lt;h1&gt;
+                        </label>
+                        <label class="option-label">
+                            <input type="radio" name="2_q2_options" value="D">
+                            D) &lt;<title></title>&gt;
+                        </label>
+                    </div>
+                </div>
+
+                <div id="quiz-question-3" class="quiz-question-block">
+                    <h1 class="question-title">3. Você quer listar três frutas favoritas sem se preocupar com a ordem. Qual estrutura de lista você deve usar?</h1>
+                    <div class="options">
+                        <label class="option-label">
+                            <input type="radio" name="2_q3_options" value="A"> 
+                            A) &lt;ol&gt; e &lt;li&gt; 
+                        </label>
+                        <label class="option-label">
+                            <input type="radio" name="2_q3_options" value="B">
+                            B) &lt;ul&gt; e &lt;li&gt;
+                        </label>
+                        <label class="option-label">
+                            <input type="radio" name="2_q3_options" value="C">
+                            C) &lt;p&gt; e &lt;li&gt;
+                        </label>
+                        <label class="option-label">
+                            <input type="radio" name="2_q3_options" value="D">
+                            D) &lt;h1&gt; e &lt;li&gt;
+                        </label>
+                    </div>
+                </div>
+
+                <div id="quiz-question-4" class="quiz-question-block">
+                    <h1 class="question-title">4. Qual atributo da tag &lt;a&gt; é obrigatório para especificar o endereço (URL) para onde o link deve apontar?</h1>
+                    <div class="options">
+                        <label class="option-label">
+                            <input type="radio" name="2_q4_options" value="A"> 
+                            A) src
+                        </label>
+                        <label class="option-label">
+                            <input type="radio" name="2_q4_options" value="B">
+                            B) alt
+                        </label>
+                        <label class="option-label">
+                            <input type="radio" name="2_q4_options" value="C">
+                            C) href
+                        </label>
+                        <label class="option-label">
+                            <input type="radio" name="2_q4_options" value="D">
+                            D) target
+                        </label>
+                    </div>
+                </div>
+
+                <div id="quiz-question-5" class="quiz-question-block">
+                    <h1 class="question-title">5. Você quer que um link para um site externo (https://www.exemplo.com) abra em uma nova aba do navegador. Qual é a forma correta de fazer isso?</h1>
+                    <div class="options">
+                        <label class="option-label">
+                            <input type="radio" name="2_q5_options" value="A"> 
+                            A) &lt;a href="https://www.exemplo.com" newtab&gt;Visitar&lt;/a&gt;
+                        </label>
+                        <label class="option-label">
+                            <input type="radio" name="2_q5_options" value="B">
+                            B) &lt;a href="https://www.exemplo.com" tab="_blank"&gt;Visitar&lt;/a&gt;
+                        </label>
+                        <label class="option-label">
+                            <input type="radio" name="2_q5_options" value="C">
+                            C) &lt;a href="https://www.exemplo.com" target="_new"&gt;Visitar&lt;/a&gt;
+                        </label>
+                        <label class="option-label">
+                            <input type="radio" name="2_q5_options" value="D">
+                            D) &lt;a href="https://www.exemplo.com" target="_blank"&gt;Visitar&lt;/a&gt;
+                        </label>
+                    </div>
+                </div>
+
+                <button id="submit-btn">Verificar Respostas</button> <div id="overall-feedback-message" class="message"></div> </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
