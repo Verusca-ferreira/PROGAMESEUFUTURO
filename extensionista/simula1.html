@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de HTML</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body class="quiz">
+    <div class="breadcrumb-container">
+        <div class="container">
+            <a href="modulos-html.html" class="breadcrumb-link">‹ Voltar para o Curso HTML</a>
+        </div>
+    </div>
+    <div class="page-content-wrapper">
+        <div class="container">
+            <div class="content-card">
+
+                <div id="quiz-question-1" class="quiz-question-block">
+                    <h1 class="question-title">1. Qual é o significado da sigla HTML?</h1>
+                    <div class="options">
+                        <label class="option-label">
+                            <input type="radio" name="q1_options" value="A"> 
+                            A) HyperText Markup Language
+                        </label>
+                        <label class="option-label">
+                            <input type="radio" name="q1_options" value="B">
+                            B) High-Level Text Management Language
+                        </label>
+                        <label class="option-label">
+                            <input type="radio" name="q1_options" value="C">
+                            C) Hyperlink and Text Markup Language
+                        </label>
+                        <label class="option-label">
+                            <input type="radio" name="q1_options" value="D">
+                            D) Home Tool Markup Language
+                        </label>
+                    </div>
+                </div>
+
+                <div id="quiz-question-2" class="quiz-question-block">
+                    <h1 class="question-title">2. Qual das seguintes opções descreve corretamente o papel do HTML em uma página web?</h1>
+                    <div class="options">
+                        <label class="option-label">
+                            <input type="radio" name="q2_options" value="A"> 
+                            A) Define a interatividade e o comportamento da página.
+                        </label>
+                        <label class="option-label">
+                            <input type="radio" name="q2_options" value="B">
+                            B) Controla o estilo visual e o layout da página.
+                        </label>
+                        <label class="option-label">
+                            <input type="radio" name="q2_options" value="C">
+                            C) Estrutura o conteúdo e os elementos da página.
+                        </label>
+                        <label class="option-label">
+                            <input type="radio" name="q2_options" value="D">
+                            D) Gerencia o banco de dados e a lógica do servidor.
+                        </label>
+                    </div>
+                </div>
+
+                <div id="quiz-question-3" class="quiz-question-block">
+                    <h1 class="question-title">3. Qual é a sintaxe correta para uma tag HTML que envolve um conteúdo, como um parágrafo?</h1>
+                    <div class="options">
+                        <label class="option-label">
+                            <input type="radio" name="q3_options" value="A"> 
+                            A) &lt;p&gt;Este é um parágrafo.
+                        </label>
+                        <label class="option-label">
+                            <input type="radio" name="q3_options" value="B">
+                            B) Este é um parágrafo.&lt;/p&gt;
+                        </label>
+                        <label class="option-label">
+                            <input type="radio" name="q3_options" value="C">
+                            C) &lt;/p&gt;Este é um parágrafo.&lt;p&gt;
+                        </label>
+                        <label class="option-label">
+                            <input type="radio" name="q3_options" value="D">
+                            D) &lt;p&gt;Este é um parágrafo.&lt;/p&gt;
+                        </label>
+                    </div>
+                </div>
+
+                <div id="quiz-question-4" class="quiz-question-block">
+                    <h1 class="question-title">4. Onde o conteúdo visível de uma página web (textos, imagens, links) deve ser colocado em um documento HTML?</h1>
+                    <div class="options">
+                        <label class="option-label">
+                            <input type="radio" name="q4_options" value="A"> 
+                            A) Dentro da tag &lt;head&gt;
+                        </label>
+                        <label class="option-label">
+                            <input type="radio" name="q4_options" value="B">
+                            B) Dentro da tag &lt;title&gt;
+                        </label>
+                        <label class="option-label">
+                            <input type="radio" name="q4_options" value="C">
+                            C) Dentro da tag &lt;body&gt;
+                        </label>
+                        <label class="option-label">
+                            <input type="radio" name="q4_options" value="D">
+                            D) Dentro da tag &lt;meta&gt;
+                        </label>
+                    </div>
+                </div>
+
+                <div id="quiz-question-5" class="quiz-question-block">
+                    <h1 class="question-title">5. Qual é a finalidade principal da declaração &lt;!DOCTYPE html&gt; no início de um documento HTML?</h1>
+                    <div class="options">
+                        <label class="option-label">
+                            <input type="radio" name="q5_options" value="A"> 
+                            A) Informar ao navegador para usar JavaScript.
+                        </label>
+                        <label class="option-label">
+                            <input type="radio" name="q5_options" value="B">
+                            B) Definir o título da página na aba do navegador.
+                        </label>
+                        <label class="option-label">
+                            <input type="radio" name="q5_options" value="C">
+                            C) Indicar a versão do HTML que está sendo usada para o navegador.
+                        </label>
+                        <label class="option-label">
+                            <input type="radio" name="q5_options" value="D">
+                            D) Ligar a página a uma folha de estilo CSS externa.
+                        </label>
+                    </div>
+                </div>
+
+                <button id="submit-btn">Verificar Respostas</button> <div id="overall-feedback-message" class="message"></div> </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

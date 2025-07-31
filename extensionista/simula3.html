@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de HTML</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body class="quiz">
+    <div class="breadcrumb-container">
+        <div class="container">
+            <a href="modulos-html.html" class="breadcrumb-link">‹ Voltar para o Curso HTML</a>
+        </div>
+    </div>
+    <div class="page-content-wrapper">
+        <div class="container">
+            <div class="content-card">
+
+                <div id="quiz-question-1" class="quiz-question-block">
+                    <h1 class="question-title">1. Qual atributo da tag &lt;img&gt; é crucial para acessibilidade e SEO, fornecendo uma descrição textual da imagem?</h1>
+                    <div class="options">
+                        <label class="option-label">
+                            <input type="radio" name="3q1_options" value="A"> 
+                            A) &lt;src&gt;
+                        </label>
+                        <label class="option-label">
+                            <input type="radio" name="3q1_options" value="B">
+                            B) &lt;href&gt;
+                        </label>
+                        <label class="option-label">
+                            <input type="radio" name="3q1_options" value="C">
+                            C) &lt;title&gt;
+                        </label>
+                        <label class="option-label">
+                            <input type="radio" name="3q1_options" value="D">
+                            D) &lt;alt&gt;
+                        </label>
+                    </div>
+                </div>
+
+                <div id="quiz-question-2" class="quiz-question-block">
+                    <h1 class="question-title">2. Para que serve o atributo `controls` na tag &lt;audio&gt;</h1>
+                    <div class="options">
+                        <label class="option-label">
+                            <input type="radio" name="3q2_options" value="A"> 
+                            A) Adiciona os controles de reprodução padrão do navegador (play, pause, volume, etc.) ao player de áudio.
+                        </label>
+                        <label class="option-label">
+                            <input type="radio" name="3q2_options" value="B">
+                            B) Especifica o caminho do arquivo de áudio a ser reproduzido.
+                        </label>
+                        <label class="option-label">
+                            <input type="radio" name="3q2_options" value="C">
+                            C) Determina se o áudio deve ser repetido indefinidamente.
+                        </label>
+                        <label class="option-label">
+                            <input type="radio" name="3q2_options" value="D">
+                            D) Define se o áudio deve ser reproduzido automaticamente ao carregar a página
+                        </label>
+                    </div>
+                </div>
+
+                <div id="quiz-question-3" class="quiz-question-block">
+                    <h1 class="question-title">3. Qual tag HTML representa uma linha em uma tabela?</h1>
+                    <div class="options">
+                        <label class="option-label">
+                            <input type="radio" name="3q3_options" value="A"> 
+                            A) &lt;table&gt;
+                        </label>
+                        <label class="option-label">
+                            <input type="radio" name="3q3_options" value="B">
+                            B) &lt;tr&gt;
+                        </label>
+                        <label class="option-label">
+                            <input type="radio" name="3q3_options" value="C">
+                            C) &lt;th&gt;
+                        </label>
+                        <label class="option-label">
+                            <input type="radio" name="3q3_options" value="D">
+                            D) &lt;td&gt;
+                        </label>
+                    </div>
+                </div>
+
+                <div id="quiz-question-4" class="quiz-question-block">
+                    <h1 class="question-title">4.  Para que serve o atributo `colspan` em uma célula de tabela (&lt;th&gt; ou &lt;td&gt;)?</h1>
+                    <div class="options">
+                        <label class="option-label">
+                            <input type="radio" name="3q4_options" value="A"> 
+                            A) Para mesclar células horizontalmente, fazendo com que uma célula ocupe o espaço de várias colunas.
+                        </label>
+                        <label class="option-label">
+                            <input type="radio" name="3q4_options" value="B">
+                            B) Para mesclar células verticalmente, fazendo com que uma célula ocupe o espaço de várias linhas.
+                        </label>
+                        <label class="option-label">
+                            <input type="radio" name="3q4_options" value="C">
+                            C) Para definir a cor de fundo de uma célula.
+                        </label>
+                        <label class="option-label">
+                            <input type="radio" name="3q4_options" value="D">
+                            D) Para alinhar o texto dentro de uma célula.
+                        </label>
+                    </div>
+                </div>
+
+                <div id="quiz-question-5" class="quiz-question-block">
+                    <h1 class="question-title">5. Qual dos seguintes formatos de imagem é geralmente preferível para gráficos vetoriais e logotipos devido à sua escalabilidade sem perda de qualidade?</h1>
+                    <div class="options">
+                        <label class="option-label">
+                            <input type="radio" name="3q5_options" value="A"> 
+                            A) SVG
+                        </label>
+                        <label class="option-label">
+                            <input type="radio" name="3q5_options" value="B">
+                            B) GIF
+                        </label>
+                        <label class="option-label">
+                            <input type="radio" name="3q5_options" value="C">
+                            C) PNG
+                        </label>
+                        <label class="option-label">
+                            <input type="radio" name="3q5_options" value="D">
+                            D) JPG
+                        </label>
+                    </div>
+                </div>
+
+                <button id="submit-btn">Verificar Respostas</button> <div id="overall-feedback-message" class="message"></div> </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
